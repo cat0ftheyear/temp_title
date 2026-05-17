@@ -1,0 +1,34 @@
+baseURL = "https://cat0ftheyear.github.io/temp_title/"
+locale = "en-us"
+title = "temp_title"
+theme = "PaperMod"
+paginate = 5
+
+[params]
+  author = "Your Name"
+  description = "My personal blog"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowShareButtons = false
+
+[params.homeInfoParams]
+  Title = "Hi there"
+  Content = "Welcome to my blog."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/cat0ftheyear"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
