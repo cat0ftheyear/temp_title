@@ -17,18 +17,14 @@ paginate = 5
   Title = "Hi there"
   Content = "Welcome to my blog."
 
-[[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/cat0ftheyear"
-
 [menu]
   [[menu.main]]
     identifier = "posts"
     name = "Posts"
-    url = "/posts/"
+    url = "posts/"
     weight = 10
   [[menu.main]]
     identifier = "tags"
     name = "Tags"
-    url = "/tags/"
+    url = "tags/"
     weight = 20
