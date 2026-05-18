@@ -1,30 +1,37 @@
 baseURL = "https://cat0ftheyear.github.io/temp_title/"
-locale = "en-us"
-title = "temp_title"
 theme = "PaperMod"
 paginate = 5
+defaultContentLanguage = "he"
 
-[params]
-  author = "Your Name"
-  description = "My personal blog"
-  ShowReadingTime = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowShareButtons = false
+[languages]
+  [languages.he]
+    direction = "rtl"
+    label = "עברית"
+    title = "הבלוג שלי"
+    locale = "he"
+    weight = 1
 
-[params.homeInfoParams]
-  Title = "Hi there"
-  Content = "Welcome to my blog."
+    [languages.he.params]
+      author = "שם"
+      description = "הבלוג האישי שלי"
+      ShowReadingTime = true
+      ShowPostNavLinks = true
+      ShowBreadCrumbs = true
+      ShowCodeCopyButtons = true
+      ShowShareButtons = false
 
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "posts/"
-    weight = 10
-  [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "tags/"
-    weight = 20
+    [languages.he.params.homeInfoParams]
+      Title = "שלום"
+      Content = "ברוכים הבאים לבלוג שלי."
+
+    [[languages.he.menu.main]]
+      identifier = "posts"
+      name = "פוסטים"
+      url = "posts/"
+      weight = 10
+
+    [[languages.he.menu.main]]
+      identifier = "tags"
+      name = "תגיות"
+      url = "tags/"
+      weight = 20
