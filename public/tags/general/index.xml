@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>General on temp_title</title>
-    <link>http://localhost:1313/temp_title/tags/general/</link>
-    <description>Recent content in General on temp_title</description>
+    <title>General on הבלוג שלי</title>
+    <link>https://cat0ftheyear.github.io/temp_title/tags/general/</link>
+    <description>Recent content in General on הבלוג שלי</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>he</language>
     <lastBuildDate>Sun, 17 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/temp_title/tags/general/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cat0ftheyear.github.io/temp_title/tags/general/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/temp_title/posts/hello-world/</link>
+      <title>בדיקה</title>
+      <link>https://cat0ftheyear.github.io/temp_title/posts/hello-world/</link>
       <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/temp_title/posts/hello-world/</guid>
-      <description>&lt;p&gt;This is my first blog post. Welcome!&lt;/p&gt;</description>
+      <guid>https://cat0ftheyear.github.io/temp_title/posts/hello-world/</guid>
+      <description>&lt;p&gt;המממ 123 בדיקה אוקיי&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
